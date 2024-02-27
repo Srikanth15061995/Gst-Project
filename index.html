@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <!-- navbar.... -->
+
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <h1>Food HUB</h1>
+      </div>
+
+      
+      <div class="input">
+        <input type="text" value="" id="inp" placeholder="  Search Here...">
+
+      </div>
+
+      <div class="MENU">
+        <Ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Project</a></li>
+          <li><a href="#">Contact</a></li>
+        </Ul>
+     </div>
+
+      <div class="burger">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+      </div>
+
+    </nav>
+
+    <!-- main page -->
+
+    <div class="main">
+      <div class="text">
+        <h1>Simple & Testy <br>Recipes</h1>
+        <p>Lorwm Ipsum, dolor sit amet consectetur adipisicing elit. Placeeat Repellat
+          <br>consectetur elit. Placeeat Repellat voluptas eligendi rerum est
+          <br>quibusdam tempora beatae molestias dicta.
+        </p>
+        <button>Explore More</button>
+      </div>
+      <img src="./img.2.jpg" alt="">
+    </div>
+  </div>
+
+
+  <!-- menu section -->
+
+
+  <div class="menusection">
+    <form class="text-1">
+      <h1>Person Details</h1>
+
+      <div class="box">
+        <label for="name" class="lable-name">Name </label>
+        <input type="text" id="Name" placeholder="  Enter Your Name" />
+      </div>
+
+      <div class="box">
+        <label for="email" class="lable-name">Email </label>
+        <input type="email" id="Email" placeholder="  Enter Your Email" />
+      </div>
+
+      <div class="box">
+        <label for="phone" class="lable-name">Phone No</label>
+        <input type="tel" id="phoneno" placeholder="  phone number" />
+      </div>
+
+
+      <div class="box">
+        <label for="place" class="lable-name">Location </label>
+        <input type="text" id="Location" placeholder="  current Location" />
+      </div>
+
+
+
+      <!-- personal  -->
+
+
+      <h1>Menu</h1>
+
+
+      <div class="box">
+        <label for="chicken-burger" class="lable-name">chicken-Burger </label>
+        <input type="text" id="ch-B" placeholder="  Enter Amount" />
+      </div>
+
+      <div class="box">
+        <label for="onion-burger" class="lable-name">onion-burger </label>
+        <input type="text" id="veg-B" placeholder="  Enter Amount " />
+      </div>
+
+      <div class="box">
+        <label for="Hickory-burger" class="lable-name">Hickory-burger </label>
+        <input type="text" id="H-B" placeholder="  Enter Amount" />
+      </div>
+
+      <div class="box">
+        <label for="BBQ-burger" class="lable-name">BBQ-burger </label>
+        <input type="text" id="B-B" placeholder="  Enter Amount" />
+      </div>
+
+      <div class="box">
+        <label for="gst" class="lable-name">Gst</label>
+        <input type="text" id="gst" placeholder=" 18%" />
+      </div>
+
+      <div class="button">
+        <button onclick= result() type="button" id="Result">
+          Total Amount
+        </button>
+      </div>
+    </form>
+
+    <!-- o/p -->
+
+    <div class="output">
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
