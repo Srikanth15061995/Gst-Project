@@ -1,6 +1,11 @@
+
+
+
 Developed a web application to calculate Goods and Services Tax (GST) for transactions and generate
 invoices. The application includes a user-friendly interface for entering transaction details, calculating GST
 amounts
+
+
 Technologies Used: HTML, CSS, JavaScript
 
 
